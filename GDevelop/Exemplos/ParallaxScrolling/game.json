@@ -1,0 +1,784 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\paulo\\OneDrive\\Documentos\\GDevelop projects\\ParallaxScrolling\\game.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": false
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Sky-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sky-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FarCloud-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FarCloud-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NearCloud-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NearCloud-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FarMountain-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FarMountain-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FarTree-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FarTree-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NearTree-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NearTree-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Grass-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass-1.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "PositionX",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "ParallaxScrollingScene",
+      "name": "ParallaxScrollingScene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.52
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "layer": "Sky",
+          "locked": false,
+          "name": "Sky",
+          "persistentUuid": "c09f1a12-88d3-4bd6-ac9d-3df5555f8458",
+          "width": 6272,
+          "x": -2304,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "FarCloud",
+          "locked": false,
+          "name": "FarCloud",
+          "persistentUuid": "7277a5cb-1bf1-4eaa-bf0d-ca99a62a0ab1",
+          "width": 5504,
+          "x": -2048,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "NearCloud",
+          "locked": false,
+          "name": "NearCloud",
+          "persistentUuid": "8257a1c4-d8f1-454d-9d9c-73a73b84dc10",
+          "width": 5792,
+          "x": -1600,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "FarMountain",
+          "locked": false,
+          "name": "FarMountain",
+          "persistentUuid": "a468a4ed-4b0d-4b2b-9497-ce34ff09a61d",
+          "width": 5760,
+          "x": -1728,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "FarTree",
+          "locked": false,
+          "name": "FarTree",
+          "persistentUuid": "ed09b800-e2ce-49c5-9c83-7f3c75d5803a",
+          "width": 5856,
+          "x": -1376,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "NearTree",
+          "locked": false,
+          "name": "NearTree",
+          "persistentUuid": "b6b95e03-006b-417b-8156-0aaa17b3e6c5",
+          "width": 5120,
+          "x": -992,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "Grass",
+          "locked": false,
+          "name": "Grass",
+          "persistentUuid": "c0c85e85-3f1a-4a44-be89-c9f94cffc5bd",
+          "width": 4288,
+          "x": -672,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "locked": false,
+          "name": "Posicao",
+          "persistentUuid": "54e9fd1d-e21a-443e-a0ed-9eb944e2a7ac",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 720,
+          "name": "Sky",
+          "tags": "",
+          "texture": "Sky-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "FarCloud",
+          "tags": "",
+          "texture": "FarCloud-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "NearCloud",
+          "tags": "",
+          "texture": "NearCloud-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "FarMountain",
+          "tags": "",
+          "texture": "FarMountain-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "FarTree",
+          "tags": "",
+          "texture": "FarTree-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "NearTree",
+          "tags": "",
+          "texture": "NearTree-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 720,
+          "name": "Grass",
+          "tags": "",
+          "texture": "Grass-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Posicao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 32,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    "-",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    "+",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    ">=",
+                    "3500"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PositionX",
+                    "=",
+                    "3500"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(,), GlobalVariable(PositionX), 0.05)",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Posicao",
+                "=",
+                "GlobalVariableString(PositionX)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.75",
+                "\"Grass\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.70",
+                "\"NearTree\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.65",
+                "\"FarTree\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.60",
+                "\"FarMountain\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.55",
+                "\"NearCloud\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX() * 0.50",
+                "\"FarCloud\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "Sky",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "FarCloud",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "NearCloud",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "FarMountain",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "FarTree",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "NearTree",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Grass",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
