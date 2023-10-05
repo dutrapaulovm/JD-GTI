@@ -1,7 +1,7 @@
 # JD-GTI
 Disciplina Jogos Digitais - Curso: Gestão da Tecnologia da Informação - IFSUDESTEMG - Campus Muriaé
 
-##Apostilas
+## Apostilas
 [Apostila - Jogos Digitais](https://www.overleaf.com/read/txjvswbprmmx)
 
 ## Videoaulas
