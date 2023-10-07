@@ -18,12 +18,6 @@ Nesta disciplina, os alunos são introduzidos ao emocionante mundo do desenvolvi
 - **Exemplos Práticos:** Encontre exemplos de jogos simples e avançados criados com Game Maker e GDevelop 5 para entender como aplicar os conceitos em projetos reais.
 
 - **Guias Passo a Passo:** Tutoriais detalhados sobre como criar elementos essenciais, como personagens, cenários, interações e mecânicas de jogo usando ambas as plataformas.
-
-## Como Usar
-
-1. **Instalação:** Certifique-se de ter Game Maker e GDevelop 5 instalados em seu sistema. Links para download estão disponíveis na documentação.
-
-2. **Exploração:** Navegue pelos diretórios para encontrar exemplos específicos e guias detalhados para começar a desenvolver seus próprios jogos.
    
 ## Apostilas
 [Apostila - Jogos Digitais](https://www.overleaf.com/read/txjvswbprmmx)
