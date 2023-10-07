@@ -24,7 +24,7 @@ Nesta disciplina, os alunos são introduzidos ao emocionante mundo do desenvolvi
 1. **Instalação:** Certifique-se de ter Game Maker e GDevelop 5 instalados em seu sistema. Links para download estão disponíveis na documentação.
 
 2. **Exploração:** Navegue pelos diretórios para encontrar exemplos específicos e guias detalhados para começar a desenvolver seus próprios jogos.
-3. 
+   
 ## Apostilas
 [Apostila - Jogos Digitais](https://www.overleaf.com/read/txjvswbprmmx)
 
