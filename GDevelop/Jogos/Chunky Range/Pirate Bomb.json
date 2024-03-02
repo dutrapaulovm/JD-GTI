@@ -11,12 +11,12 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "6dfe68ea-738c-4bbe-90dc-25dc272d6d5f",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -41128,7 +41128,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.49508400737488867,
+        "zoomFactor": 0.5117784035210177,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41142,8 +41142,8 @@
           "layer": "",
           "name": "RedwoodBackground",
           "persistentUuid": "5be2a5a3-4763-4e85-90a0-16911a199e37",
-          "width": 544,
-          "x": 32,
+          "width": 512,
+          "x": 64,
           "y": 544,
           "zOrder": 2,
           "numberProperties": [],
@@ -41158,25 +41158,9 @@
           "layer": "",
           "name": "RedwoodBackground",
           "persistentUuid": "330cab68-7fe0-4f16-b7fe-0cf4c105dc52",
-          "width": 480,
+          "width": 416,
           "x": 800,
           "y": 544,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 800,
-          "layer": "",
-          "name": "RedwoodBackground",
-          "persistentUuid": "aac6bf7b-2785-4fa7-ba56-1664680b8041",
-          "width": 192,
-          "x": -160,
-          "y": -32,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -41190,8 +41174,8 @@
           "layer": "",
           "name": "RedwoodBackground",
           "persistentUuid": "b6e56383-65bb-4c82-b542-fa9ab5ebc832",
-          "width": 1248,
-          "x": 32,
+          "width": 1152,
+          "x": 64,
           "y": -160,
           "zOrder": 2,
           "numberProperties": [],
@@ -41204,12 +41188,12 @@
           "depth": 1,
           "height": 800,
           "layer": "",
-          "name": "RedwoodBackground",
-          "persistentUuid": "39dd2d97-eead-4814-b84c-3da46b1f4256",
-          "width": 192,
-          "x": 1280,
+          "name": "WoodBackground",
+          "persistentUuid": "61f1a934-c2ff-417c-bea6-efb5157ff2fe",
+          "width": 1280,
+          "x": 0,
           "y": -32,
-          "zOrder": 2,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41218,14 +41202,30 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 736,
+          "height": 928,
           "layer": "",
-          "name": "WoodBackground",
-          "persistentUuid": "61f1a934-c2ff-417c-bea6-efb5157ff2fe",
-          "width": 1248,
-          "x": 32,
-          "y": 32,
-          "zOrder": 0,
+          "name": "RedwoodBackground",
+          "persistentUuid": "c36665be-4406-4831-92b2-aac47afce342",
+          "width": 192,
+          "x": 1216,
+          "y": -160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 928,
+          "layer": "",
+          "name": "RedwoodBackground",
+          "persistentUuid": "afcd9fa4-df0d-45bf-8e6c-63900822795d",
+          "width": 224,
+          "x": -160,
+          "y": -160,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41235,7 +41235,33 @@
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
